@@ -12,7 +12,6 @@
 		6F975C022401640900BA704E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F975C002401640900BA704E /* Main.storyboard */; };
 		6F975C042401640B00BA704E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F975C032401640B00BA704E /* Assets.xcassets */; };
 		6F975C072401640B00BA704E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F975C052401640B00BA704E /* LaunchScreen.storyboard */; };
-		6F975C122401640B00BA704E /* promoBasketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F975C112401640B00BA704E /* promoBasketTests.swift */; };
 		6F975C1F2401643400BA704E /* CurrencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F975C1E2401643400BA704E /* CurrencyService.swift */; };
 		6F975C222401647C00BA704E /* BasketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F975C212401647C00BA704E /* BasketViewModel.swift */; };
 		6F975C25240164C400BA704E /* BasketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F975C24240164C400BA704E /* BasketCell.swift */; };
@@ -28,6 +27,10 @@
 		6F975C412401673600BA704E /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F975C402401673600BA704E /* UITextField+Extension.swift */; };
 		6F975C432401676800BA704E /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F975C422401676800BA704E /* UIButton+Extension.swift */; };
 		6F975C452401678E00BA704E /* NumberFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F975C442401678E00BA704E /* NumberFormatter+Extension.swift */; };
+		6FF7E429240177590015E435 /* CurrencyServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E428240177590015E435 /* CurrencyServiceMock.swift */; };
+		6FF7E42B2401778E0015E435 /* BasketViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E42A2401778E0015E435 /* BasketViewMock.swift */; };
+		6FF7E42D240177B50015E435 /* BasketViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E42C240177B50015E435 /* BasketViewModelTests.swift */; };
+		6FF7E42F240177EC0015E435 /* ShopCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E42E240177EC0015E435 /* ShopCellViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +52,6 @@
 		6F975C062401640B00BA704E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F975C082401640B00BA704E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F975C0D2401640B00BA704E /* promoBasketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = promoBasketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F975C112401640B00BA704E /* promoBasketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promoBasketTests.swift; sourceTree = "<group>"; };
 		6F975C132401640B00BA704E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F975C1E2401643400BA704E /* CurrencyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyService.swift; sourceTree = "<group>"; };
 		6F975C212401647C00BA704E /* BasketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewModel.swift; sourceTree = "<group>"; };
@@ -66,6 +68,10 @@
 		6F975C402401673600BA704E /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		6F975C422401676800BA704E /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		6F975C442401678E00BA704E /* NumberFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extension.swift"; sourceTree = "<group>"; };
+		6FF7E428240177590015E435 /* CurrencyServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyServiceMock.swift; sourceTree = "<group>"; };
+		6FF7E42A2401778E0015E435 /* BasketViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewMock.swift; sourceTree = "<group>"; };
+		6FF7E42C240177B50015E435 /* BasketViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewModelTests.swift; sourceTree = "<group>"; };
+		6FF7E42E240177EC0015E435 /* ShopCellViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCellViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +129,10 @@
 		6F975C102401640B00BA704E /* promoBasketTests */ = {
 			isa = PBXGroup;
 			children = (
-				6F975C112401640B00BA704E /* promoBasketTests.swift */,
 				6F975C132401640B00BA704E /* Info.plist */,
+				6FF7E427240177400015E435 /* Mocks */,
+				6FF7E42C240177B50015E435 /* BasketViewModelTests.swift */,
+				6FF7E42E240177EC0015E435 /* ShopCellViewModelTests.swift */,
 			);
 			path = promoBasketTests;
 			sourceTree = "<group>";
@@ -235,6 +243,15 @@
 				6F975C442401678E00BA704E /* NumberFormatter+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6FF7E427240177400015E435 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7E428240177590015E435 /* CurrencyServiceMock.swift */,
+				6FF7E42A2401778E0015E435 /* BasketViewMock.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,7 +379,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F975C122401640B00BA704E /* promoBasketTests.swift in Sources */,
+				6FF7E42F240177EC0015E435 /* ShopCellViewModelTests.swift in Sources */,
+				6FF7E42B2401778E0015E435 /* BasketViewMock.swift in Sources */,
+				6FF7E429240177590015E435 /* CurrencyServiceMock.swift in Sources */,
+				6FF7E42D240177B50015E435 /* BasketViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

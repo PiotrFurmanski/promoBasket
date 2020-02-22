@@ -18,9 +18,6 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kr6-z7-Tca">
                                 <rect key="frame" x="0.0" y="88" width="414" height="500"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="500" id="J7O-Tq-3ps"/>
-                                </constraints>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ShopViewCell" id="fGV-r8-dQl" customClass="ShopViewCell" customModule="promoBasket" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="56"/>
@@ -142,6 +139,7 @@
                         <constraints>
                             <constraint firstItem="QaG-dK-Jkr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0gy-pw-GwU"/>
                             <constraint firstItem="kr6-z7-Tca" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="96s-Qr-AUq"/>
+                            <constraint firstItem="kr6-z7-Tca" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.558036" id="Blv-IY-sly"/>
                             <constraint firstItem="kr6-z7-Tca" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HUx-ut-nOA"/>
                             <constraint firstItem="QaG-dK-Jkr" firstAttribute="top" secondItem="kr6-z7-Tca" secondAttribute="bottom" constant="8" id="N0V-f9-RCy"/>
                             <constraint firstItem="kr6-z7-Tca" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="c1Q-gC-P2M"/>
@@ -165,7 +163,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="l3k-TG-L7w">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="44" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="l3k-TG-L7w">
                                 <rect key="frame" x="0.0" y="88" width="414" height="358.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
